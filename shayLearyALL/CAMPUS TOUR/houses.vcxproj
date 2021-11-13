@@ -65,7 +65,7 @@
       <ObjectFileName>.\Debug\</ObjectFileName>
       <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
-      <AdditionalIncludeDirectories>E:\Murdoch\ICT290 Games design and Programming\shayLearyALL\Extra Dependencies\freeglut-MSVC-3.0.0-2.mp\freeglut\include\GL;E:\Murdoch\ICT290 Games design and Programming\shayLearyALL\Extra Dependencies\SDL2-devel-2.0.16-VC\SDL2-2.0.16\include;C:\Program Files\Common Files\MSVC\freeglut\include\GL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Extra Dependencies\freeglut-MSVC-3.0.0-2.mp\freeglut\include\GL;$(SolutionDir)\Extra Dependencies\SDL2-devel-2.0.16-VC\SDL2-2.0.16\include;C:\Program Files\Common Files\MSVC\freeglut\include\GL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
     <Midl>
@@ -85,7 +85,7 @@
       <SubSystem>Console</SubSystem>
       <OutputFile>.\Debug\houses.exe</OutputFile>
       <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>E:\Murdoch\ICT290 Games design and Programming\shayLearyALL\Extra Dependencies\SDL2-devel-2.0.16-VC\SDL2-2.0.16\lib\x86;E:\Murdoch\ICT290 Games design and Programming\shayLearyALL\Extra Dependencies\freeglut-MSVC-3.0.0-2.mp\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Extra Dependencies\SDL2-devel-2.0.16-VC\SDL2-2.0.16\lib\x86;$(SolutionDir)\Extra Dependencies\freeglut-MSVC-3.0.0-2.mp\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
   </ItemDefinitionGroup>
@@ -102,7 +102,7 @@
       <PrecompiledHeaderOutputFile>.\Release\houses.pch</PrecompiledHeaderOutputFile>
       <ObjectFileName>.\Release\</ObjectFileName>
       <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
-      <AdditionalIncludeDirectories>E:\Murdoch\ICT290 Games design and Programming\shayLearyALL\Extra Dependencies\freeglut-MSVC-3.0.0-2.mp\freeglut\include\GL;E:\Murdoch\ICT290 Games design and Programming\shayLearyALL\Extra Dependencies\SDL2-devel-2.0.16-VC\SDL2-2.0.16\include;C:\Program Files\Common Files\MSVC\freeglut\include\GL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Extra Dependencies\freeglut-MSVC-3.0.0-2.mp\freeglut\include\GL;$(SolutionDir)\Extra Dependencies\SDL2-devel-2.0.16-VC\SDL2-2.0.16\include;C:\Program Files\Common Files\MSVC\freeglut\include\GL;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
     </ClCompile>
@@ -122,7 +122,7 @@
       <SubSystem>Console</SubSystem>
       <OutputFile>.\Release\houses.exe</OutputFile>
       <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>E:\Murdoch\ICT290 Games design and Programming\shayLearyALL\Extra Dependencies\SDL2-devel-2.0.16-VC\SDL2-2.0.16\lib\x86;E:\Murdoch\ICT290 Games design and Programming\shayLearyALL\Extra Dependencies\freeglut-MSVC-3.0.0-2.mp\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Extra Dependencies\SDL2-devel-2.0.16-VC\SDL2-2.0.16\lib\x86;$(SolutionDir)\Extra Dependencies\freeglut-MSVC-3.0.0-2.mp\freeglut\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
   </ItemDefinitionGroup>
